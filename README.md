@@ -19,7 +19,7 @@
 ---
 Нанеся все нужные мне текстуры я приступил к созданию деревьев. Так как у меня местность "Заснеженные горы", то легко предположить, что в такой-то холодной местности деревья особо не растут, но показать весь функционал работы с террейном всё равно хочется. Поэтому я решил создать всего одно большое дерево, также скачанное из [Unity Asset Store](https://assetstore.unity.com/), для которого специально выровнял местность и покрасил её в текстуру земли.
 
-Для создания деревьев нужно открыть следущую кисть в террейне `"Paint Trees"`, после чего добавить приобретённые модели деревьев в эту кисть (в моём случае хватит одной), установить размер кисти, количество деревьев на данную площадь и по желанию задать им высоту.
+Для создания деревьев нужно открыть следущую кисть в террейне `"Paint Trees"`, после чего добавить приобретённые [модели деревьев](https://assetstore.unity.com/packages/3d/vegetation/trees/realistic-tree-9-rainbow-tree-54622) в эту кисть (в моём случае хватит одной), установить размер кисти, количество деревьев на данную площадь и по желанию задать им высоту.
 
 ![деревья в юнити](https://github.com/Sazukiro/Landscape-Creating-in-Unity/assets/133951840/311c245f-fd5e-4afe-9bc9-002d1a26ecfe)
 
@@ -36,7 +36,11 @@
 
 ---
    
-   
+   Также я изменил **фон(Skybox)** моей карты и добавил **тумана(fog)**, для большей атмосферы. Для этого перешёл в раздел **Window->Rendering->Lighting->Environment** и там заменил материал скайбокса на [имеющийся](https://assetstore.unity.com/packages/2d/textures-materials/sky/customizable-skybox-174576) и включил туман.
+
+![image](https://github.com/Sazukiro/Landscape-Creating-in-Unity/assets/133951840/dd1bedbb-d057-4b2a-bed2-c29fa94a91db)![image](https://github.com/Sazukiro/Landscape-Creating-in-Unity/assets/133951840/8f2eebb8-7dc2-410a-a4d0-d064880a8fee)
+
+
 Основная работа сделана. Чтобы пройтись по готовой локации и не тратить на создание и программирование игрока 1000 лет, я скачал уже [готовый ассет](https://assetstore.unity.com/packages/tools/input-management/mini-first-person-controller-174710) персонажа с некоторым мувсетом и закреплённой в нём камерой, и добавил его на мою карту.
 
 ![персонаж](https://github.com/Sazukiro/Landscape-Creating-in-Unity/assets/133951840/4cf9bbf3-d4ee-4a8d-a468-1104906dc864)
@@ -72,6 +76,8 @@
 ![камера эффект](https://github.com/Sazukiro/Landscape-Creating-in-Unity/assets/133951840/251a3296-8917-4763-9d84-28dfe500e152)
 
 Теперь же привяжем эффект к определённой области, например, при приближении персонажа к дереву у персонажа искажалось зрение. Для этого создадим пустой объект `"Empty"` (Game Object), после чего включим функцию `Is Trigger` в `"Box Collider"`, для того чтобы игрок мог в него проходить. Ну и в конце применим к пустому объекту знакомые нам компоненты `"Post-Process Layer"` и `"Post-Process Volume"`, и во втором компоненте добавим эффект `"Lens Distortion"` для искажения.
+
+
 ![image](https://github.com/Sazukiro/Landscape-Creating-in-Unity/assets/133951840/6a1c533c-6fc7-4af6-823f-947b4963d060) ![image](https://github.com/Sazukiro/Landscape-Creating-in-Unity/assets/133951840/24a0d86b-ca57-42aa-b63f-68cec5347de4)
 ![image](https://github.com/Sazukiro/Landscape-Creating-in-Unity/assets/133951840/9916dedf-c0c4-4a45-9694-13420cb1d4dd)
 
