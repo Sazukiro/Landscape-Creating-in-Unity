@@ -96,3 +96,8 @@
 <a href="https://www.youtube.com/watch?v=xAtoU-FnC7o&list=PLDyJYA6aTY1k_-3fFiMVoYY04jCr-QY55"><img src = "https://i.ytimg.com/vi/xAtoU-FnC7o/maxresdefault.jpg" width=80%></a>
 
 ---
+:green_square:**ДОПОЛНЕНИЕ**: название сцены "SampleScene".
+
+![image](https://github.com/Sazukiro/Landscape-Creating-in-Unity/assets/133951840/7abdf523-ee9f-4564-94ab-005173bb6cfa)
+
+---
