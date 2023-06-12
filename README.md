@@ -36,9 +36,10 @@
 
 ---
    
-   Также я изменил **фон(Skybox)** моей карты и добавил **тумана(fog)**, для большей атмосферы. Для этого перешёл в раздел **Window->Rendering->Lighting->Environment** и там заменил материал скайбокса на [имеющийся](https://assetstore.unity.com/packages/2d/textures-materials/sky/customizable-skybox-174576) и включил туман.
+   Также я изменил **фон(Skybox)** моей карты и добавил **тумана(fog)**, для большей атмосферы. Для этого перешёл в раздел \
+   **Window->Rendering->Lighting->Environment** и там заменил материал скайбокса на [имеющийся](https://assetstore.unity.com/packages/2d/textures-materials/sky/customizable-skybox-174576) и включил туман.
 
-![image](https://github.com/Sazukiro/Landscape-Creating-in-Unity/assets/133951840/dd1bedbb-d057-4b2a-bed2-c29fa94a91db)![image](https://github.com/Sazukiro/Landscape-Creating-in-Unity/assets/133951840/8f2eebb8-7dc2-410a-a4d0-d064880a8fee)
+![image](https://github.com/Sazukiro/Landscape-Creating-in-Unity/assets/133951840/3ead6325-c878-48b9-92a5-0c6fffea26c5) ![image](https://github.com/Sazukiro/Landscape-Creating-in-Unity/assets/133951840/8f2eebb8-7dc2-410a-a4d0-d064880a8fee)
 
 
 Основная работа сделана. Чтобы пройтись по готовой локации и не тратить на создание и программирование игрока 1000 лет, я скачал уже [готовый ассет](https://assetstore.unity.com/packages/tools/input-management/mini-first-person-controller-174710) персонажа с некоторым мувсетом и закреплённой в нём камерой, и добавил его на мою карту.
